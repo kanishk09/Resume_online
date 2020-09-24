@@ -1,0 +1,119 @@
+* {
+  max-width: 1000px;
+  margin: auto;    
+}
+.heads{
+    font-weight: 700;
+    font-size: 20px;
+}
+div {
+  border-radius: 5px;
+}
+
+
+table {
+  border-collapse: collapse;
+  border: 1px solid black;
+} 
+table.d {
+  table-layout: auto;
+  width: 100%;  
+}
+th,td {
+  border: 1px solid black;
+}
+#skillz{
+    font-weight: 500;
+}
+#skill{
+    float: left;
+    border:0px;
+    padding: 5px;
+    margin-left: 50px;
+}
+#header {
+  height: 40px;
+  width: 100%;
+  background-color: #ffcccc;
+  position: fixed;
+  z-index: 1;
+}
+
+#title {
+  margin-left: 3%;
+}
+
+#footer {
+  height: 50px;
+  width: 100%;
+  background-color: #ffcccc;
+  clear: both;
+  position: relative;
+}
+
+.left {
+  height: 1000px;
+  width: 45px;
+  background-color: #e0eeee;
+  float: left;
+  position: fixed;
+}
+
+.right {
+  height: 1000px;
+  width: 45px;
+  background-color: #e0eeee;
+  float: right;
+  position: inherit;
+}
+
+.stuff {
+  display: inline-block;
+  margin-top: 6px;
+  margin-left: 55px;
+  width: 75%;
+  height: 1000px;
+  padding: 60px;    
+}
+a:hover{
+    color: red;
+}
+
+h4{
+    font-weight: 520;
+}
+
+li {
+  font-family: 'Cormorant Garamon';
+}
+
+.head {
+  font-size: 20px;
+}
+
+#name {
+  font-family: Sacramento;
+  float: right;
+  margin-top: 10px;
+  margin-right: 4%;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+.image{
+    width:115;
+    height:160px;
+    float: right;
+}
+@media only screen and (max-width: 430px) {
+  .left,
+  .right {
+    display: none;
+  }
+  .stuff {
+    width: 100%;
+    margin-left: 10px;
+  }
+}
